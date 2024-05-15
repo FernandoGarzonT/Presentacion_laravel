@@ -34,8 +34,8 @@
                     </p>
                 </div>
 
-                <div class="mb-10 ml-4 mr-6 border-2 border-blue-300 rounded-xl shadow-lg shadow-blue-600 hover:border-blue-900
-                            hover:animate-bounce">
+                <div class="mb-10 ml-4 mr-6 border-2 border-blue-300 rounded-xl shadow-lg shadow-blue-600
+                         hover:border-blue-900 hover:animate-bounce">
                     <h2 class="text-xl font-semibold m-3">Angular</h2>
 
                     <p class="mt-4 text-lg/7 text-justify  m-3">
