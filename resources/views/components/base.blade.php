@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="app.css">
     <title>Fernando Curriculum</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
 </head>
 <body>
     <x-header />
     <x-menu />
     @yield('content')
     <x-footer />
+    @livewireScripts
 </body>
 </html>
