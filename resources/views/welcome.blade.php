@@ -2,7 +2,7 @@
     @section('content')
     <main>
         <div class="grid grid-cols-2 mt-20 selection:bg-green-300 selection:text-red-900">
-
+            @persist('laravel')
             <div class="mb-10 ml-4 mr-6 border-2 border-blue-300 rounded-xl shadow-lg shadow-blue-600 hover:border-blue-900 saturate-200">
                 <h2 class="text-xl font-semibold m-3">Laravel</h2>
 
@@ -12,6 +12,7 @@
                     con administrador de contenido y usuarios.
                 </p>
             </div>
+            @endpersist
 
             <div class="mb-10 ml-4 mr-6 border-2 border-blue-300 rounded-xl shadow-lg shadow-blue-600 hover:border-blue-900
                         transition ease-in-out hover:duration-400  hover:-translate-y-1 hover:scale-100">
